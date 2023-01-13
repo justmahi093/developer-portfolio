@@ -7,6 +7,7 @@ body{
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -16,7 +17,7 @@ section{
     width: 90%;
 }
 .half-width h1 {
-    font-size: 48px;
+    font-size: 47px;
 }
 
 .half-width h4 {
@@ -38,4 +39,10 @@ section{
 #topBanner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+#dreamBig{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 11%;
 }
